@@ -1,16 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Redirecting = ({ error, description }) => (
+const Redirecting = () => (
   <div>
-    <h2>{error}</h2>
-    <h4>{description}</h4>
+    <h2>Deu Bom</h2>
   </div>
 );
-
-Redirecting.propTypes = {
-  error: PropTypes.number,
-  description: PropTypes.string,
-};
 
 export default Redirecting;
