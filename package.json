@@ -19,10 +19,6 @@
     "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2"
   },
-  "files": [
-    "dist",
-    "README.md"
-  ],
   "scripts": {
     "start": "webpack serve --progress --inline --hot --port 8080",
     "build": "cross-env NODE_ENV=production babel src --out-dir dist"
