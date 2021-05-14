@@ -4,6 +4,10 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "license": "MIT",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.13.16",
     "@babel/core": "^7.14.2",
