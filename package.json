@@ -1,7 +1,8 @@
 {
   "name": "libReact",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.13.16",
