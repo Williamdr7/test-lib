@@ -17,7 +17,11 @@ const config = {
 
   module: {
     rules: [
-      { test: /\.(js)x?$/, use: 'babel-loader', exclude: /node_modules/ },
+      {
+        test: /\.(js)x?$/,
+        use: { loader: 'babel-loader' },
+        exclude: /node_modules/,
+      },
       {
         test: /\.css$/,
         exclude: /node_modules/,
