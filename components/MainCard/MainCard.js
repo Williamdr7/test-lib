@@ -3,7 +3,7 @@ import './maincard.scss';
 /*import { VeneerButton } from 'imprint';
 import { getBranding } from '../../../helpers/localizationHelper';*/
 
-export default function MainCard({ promo }) {
+export default function MainCard({ promo, onClick }) {
   function offerValidText(endDate) {
     return (
       <div className={'promo-valid-date'}>
@@ -40,7 +40,7 @@ export default function MainCard({ promo }) {
       </div>
       {promo.offer_expiration_date && offerValidText(promo.endDate)}
       <div className='link-wrapper'>
-        <a onClick={promo.openDetailsModal}>Offer Details</a>
+        <a onClick={onClick}>Offer Details</a>
       </div>
       <div className={'promo-button-wrapper'}>
         {/*<VeneerButton
