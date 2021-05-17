@@ -1,11 +1,11 @@
 {
   "name": "libReact",
   "version": "1.0.0",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "main": "build/bundle.js",
+  "module": "build/bundle.js",
   "license": "MIT",
   "files": [
-    "dist",
+    "build",
     "README.md"
   ],
   "devDependencies": {
@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "webpack serve --progress --inline --hot --port 8080",
-    "build": "cross-env NODE_ENV=production babel src --out-dir dist"
+    "build": "webpack"
   },
   "dependencies": {
     "node-sass": "^4.11.0",

@@ -1,7 +1,6 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
-const APP_PATH = './public';
+const APP_PATH = './src/index.js';
 
 const config = {
   mode: 'development',
@@ -29,13 +28,6 @@ const config = {
       },
     ],
   },
-
-  plugins: [
-    new HtmlWebpackPlugin({
-      inject: true,
-      template: path.join(APP_PATH, 'index.html'),
-    }),
-  ],
 };
 
 module.exports = () => config;
