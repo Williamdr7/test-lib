@@ -1,0 +1,62 @@
+.promo-content-title > h2 {
+  margin: 0;
+  font-size: 36px;
+
+  font-weight: bold;
+  text-align: left;
+}
+
+.promo-content-wrapper {
+  height: 584px;
+  position: relative;
+  padding-right: 1px;
+  padding-left: 1px;
+  h2,
+  p {
+    text-align: center;
+  }
+
+  .promo-description {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .promo-valid-date {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .promo-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+
+    text-align: left;
+  }
+
+  .promo-content-image {
+    margin: 40px auto 15px auto;
+    display: block;
+    width: 99%;
+    max-width: 328px;
+    height: 184px;
+  }
+
+  .link-wrapper {
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+    color: blue;
+    :hover {
+      cursor: pointer;
+    }
+  }
+
+  .promo-button-wrapper {
+    display: flex;
+    justify-content: center;
+    bottom: 60px;
+    position: absolute;
+    width: 100%;
+  }
+}
